@@ -19,7 +19,7 @@ namespace EulerP4
                 {
                     if (IsAPalindrome(i*j))
                     {
-                        if (i*j > biggestPalindrome)
+                        if (i * j > biggestPalindrome)
                         {
                             biggestPalindrome = i * j;
                         }
@@ -27,7 +27,7 @@ namespace EulerP4
                 }
             }
 
-            Console.WriteLine($"Our biggest palindrome so far is {biggestPalindrome}");
+            Console.WriteLine($"The largest palindromic number of two 3-digit numbers far is {biggestPalindrome}");
         }
 
         /// <summary>
